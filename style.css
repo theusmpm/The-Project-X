@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000000 5%, 	#363636  95%);
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+
+  .cabecalho-imagem {
+    height: 70px;
+  }
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+
+  .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: red;
+    font-weight: 400;
+    font-size: 20px
+  }
+
+  .LEO {
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;    
+  }
+
+  .THEUS{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+  }
+
+  .WELL{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+  }
+
+  .ftleo{
+    height: 200px;
+    float: left;
+  }
+
+  .fttheus{
+    height: 200px;
+    float: right;
+  }
+
+  .ftwell{
+    height: 200px;
+    float: left;
+  }
+
+  .txt-do-leo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .txt-do-theus{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .txt-do-well{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .nomeL{
+    font-family: 'Sarala', sans-serif;
+    color: red;
+    font-size: 25px;
+  }
+
+  .nomeT{
+    font-family: 'Sarala', sans-serif;
+    color: red;
+    font-size: 25px;
+  }
+
+  .nomeW{
+    font-family: 'Sarala', sans-serif;  
+    color: red;
+    font-size: 25px;
+  }
+
+  .rodape {
+    padding: 10px;
+    border-top: 0.2px solid white;
+    }
+
+ .rodape-imagem {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+ }
+
+  .ft1{
+    height: 300px;
+    border-radius: 20px;
+    }
+
+ .ft2{
+    height: 300px;
+    border-radius: 20px;
+    }
+
+.ft3{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.ft4{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.ft5{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.imgs{
+    border-top: 0.4px solid white;
+    padding: 24px;
+    border-left: 70px;
+}
+
+.wanted{
+    font-family: 'Sarala', sans-serif;
+    font-size: 7px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside{
+        width: 100%;
+        padding: 0%;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+   nav li{
+float: none;
+text-align: center;
+width: 100%;
+   }
+}
